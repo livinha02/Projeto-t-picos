@@ -1,5 +1,5 @@
 export class CreateScenarioDto {
-    title: String;
-    description: String;
+    title: string;
+    description: string;
     // options: Option[];
 }
