@@ -16,7 +16,7 @@ export class CreateScenarioUseCase {
             return scenario;
         } catch (error) {
             this.logger.error(error);
-            throw error;
+            throw error; 
         }
     }
 }
