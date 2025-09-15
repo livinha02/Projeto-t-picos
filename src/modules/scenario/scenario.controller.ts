@@ -19,7 +19,7 @@ export class ScenarioController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.scenarioService.findOne(+id);
+    return this.scenarioService.findOne(id);
   }
 
   @Patch(':id')
@@ -29,6 +29,6 @@ export class ScenarioController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.scenarioService.remove(+id);
+    return this.scenarioService.remove(id);
   }
 }
