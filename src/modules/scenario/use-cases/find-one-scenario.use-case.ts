@@ -1,5 +1,5 @@
 import { Injectable, Logger } from "@nestjs/common";
-import { FindOneScenarioRepository } from "../repository/find-one-scenario.repository";
+import { FindOneScenarioRepository } from "../repository";
 
 @Injectable ()
 export class FindOneScenarioUseCase {

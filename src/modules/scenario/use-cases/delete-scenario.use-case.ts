@@ -1,5 +1,5 @@
 import { Injectable, Logger } from "@nestjs/common";
-import { DeleteScenarioRepository } from "../repository/delete-scenario.repository";
+import { DeleteScenarioRepository } from "../repository";
 
 @Injectable ()
 export class DeleteScenarioUseCase {

@@ -1,7 +1,6 @@
-import { UpdateScenarioRepository } from './../repository/update-scenario.repository';
 import { Injectable, Logger } from "@nestjs/common";
-import { ListScenarioRepository } from "../repository";
 import { UpdateScenarioDto } from "../dto/update-scenario.dto";
+import { UpdateScenarioRepository } from "../repository";
 
 @Injectable()
 export class UpdateScenarioUseCase {

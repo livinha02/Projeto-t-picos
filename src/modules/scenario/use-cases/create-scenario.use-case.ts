@@ -1,8 +1,7 @@
 import { Injectable } from "@nestjs/common/decorators/core";
-import { CreateScenarioRepository } from "../repository/create-scenario.repository";
 import { CreateScenarioDto } from "../dto/create-scenario.dto";
 import { Logger } from "@nestjs/common";
-import { error } from "console";
+import { CreateScenarioRepository } from "../repository";
 
 @Injectable()
 export class CreateScenarioUseCase {
